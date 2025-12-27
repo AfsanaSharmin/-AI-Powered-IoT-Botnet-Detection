@@ -1,10 +1,9 @@
 # -AI-Powered-IoT-Botnet-Detection
-AI-Powered IoT Botnet Detection
 
 This project implements a machine learning and deep learning–based framework for detecting botnet attacks in IoT networks using network traffic data. The goal is to accurately distinguish benign IoT traffic from botnet-generated malicious traffic while minimizing false alarms and missed detections.
 
 
-Project Objective
+## Project Objective
 
 The rapid growth of IoT devices has increased vulnerability to botnet attacks such as Mirai and BASHLITE. This project aims to:
 
@@ -17,8 +16,8 @@ Evaluate models using security-relevant metrics
 Analyze accuracy vs. computational cost trade-offs
 
 
-Models Implemented
-Machine Learning
+## Models Implemented
+#### Machine Learning
 
 Support Vector Machine (SVM)
 
@@ -26,7 +25,7 @@ Decision Tree (DT)
 
 Random Forest (RF)
 
-Deep Learning
+#### Deep Learning
 
 Convolutional Neural Network (CNN)
 
@@ -35,7 +34,7 @@ Recurrent Neural Network (RNN – LSTM)
 Generative Adversarial Network (GAN) for data imbalance handling
 
 
- Dataset Overview
+## Dataset Overview
 
 Dataset: NaiBot (IoT Botnet Dataset)
 
@@ -61,7 +60,7 @@ Labels:
  Dataset files are not included in this repository due to size and licensing constraints.
 
 
- Evaluation Metrics
+## Evaluation Metrics
 
 The models are evaluated using:
 
@@ -82,7 +81,7 @@ Training and inference time
 These metrics ensure suitability for real-world IoT security systems, where false alarms are costly.
 
 
-Key Findings
+## Key Findings
 
 Random Forest achieved the best overall performance with near-perfect accuracy
 
@@ -93,7 +92,7 @@ CNN performed competitively, showing strong feature-learning capability
 SVM and GAN showed poor performance for this dataset and task
 
 
- Technologies Used
+## Technologies Used
 
 Python
 
@@ -107,6 +106,6 @@ Matplotlib, Seaborn
 
 
 
-Author
-Afsana Sharmin
+### Author
+Afsana Sharmin|
 PhD Researcher | AI, Machine Learning, Deep Learning, Cybersecurity
